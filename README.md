@@ -32,6 +32,7 @@ git clone [https://github.com/oukai0529/AutoArchive.git](https://github.com/ouka
 cd AutoArchive
 pip install -r requirements.txt
 python gui.py
+```
 
 ## ⚙️ 配置说明 (首次运行)
 
