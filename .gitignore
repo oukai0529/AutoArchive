@@ -1,0 +1,16 @@
+# === 隐私文件 (绝对不传) ===
+config.json
+local_keys_db.json
+
+# === 垃圾/临时文件 ===
+__pycache__/
+*.pyc
+*.spec
+
+# === 运行产生的数据 ===
+output_archives/
+restored_files/
+
+# === 打包生成的软件 (exe通过Release发，不传代码库) ===
+build/
+dist/
