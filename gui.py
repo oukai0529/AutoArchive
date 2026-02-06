@@ -12,7 +12,7 @@ import unpacker
 class ArchiveApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("My Auto Archive (IC Engineer Edition)")
+        self.root.title("My Auto Archive (IC Engineer Edition) - v1.1.0")
         self.root.geometry("600x450")
         
         # 1. 顶部提示区
@@ -40,7 +40,7 @@ class ArchiveApp:
         self.drop_area.dnd_bind('<<Drop>>', self.on_drop)
 
         # 3. 日志输出窗口
-        self.log_window = scrolledtext.ScrolledText(root, height=12, state='disabled', bg="#1e1e1e", fg="#00ff00", font=("Consolas", 10))
+        self.log_window = scrolledtext.ScrolledText(root, height=12, state='disabled', bg="#1e1e1e", fg="#ffffff", font=("Consolas", 10))
         self.log_window.pack(pady=10, padx=10, fill="both", expand=True)
 
         # === 黑魔法：重定向 print 输出到 GUI ===
